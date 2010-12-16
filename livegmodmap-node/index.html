@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>NodeJS</title>
+	
+	<script src="socket.io/socket.io.js"></script>
+	<script src="mootools-1.2.4-core.js"></script>
+	<script src="moocanvas.js"></script>
+	<script src="moocanvas/Canvas/Canvas.js"></script>
+  <script src="moocanvas/Canvas/Gradient.js"></script>
+  <script src="moocanvas/Canvas/Image.js"></script>
+  <script src="moocanvas/Canvas/Path.js"></script>
+  <script src="moocanvas/Canvas/Pattern.js"></script>
+  <script src="moocanvas/Canvas/Rects.js"></script>
+  <script src="moocanvas/Canvas/State.js"></script>
+  <script src="moocanvas/Canvas/Transform.js"></script>
+	<script src="tween.js"></script>
+	<script src="client.js"></script>
+	<style>
+		body {
+			background-color: #335;
+		}
+		#map {
+			border: 1px black solid;
+			width: 900px;
+			height: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #fff;
+		}
+	</style>
+  </head>
+  <body>
+		<center>
+		<h1>Gmod Live Map</h1>
+		<h2><span id="status">opening socket</span></h2>
+		<div id='messages'></div>
+		</center>
+		<div id='map'></div>
+		<script type="text/javascript" >
+		      window.addEvent('domready', function(){
+						new Client();
+		      });
+		</script>
+    
+  </body>
+</html>

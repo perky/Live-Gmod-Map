@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"Live Gmod Map"
+	"version"			"1"
+	"up_date"			"Dec 2010"
+	"author_name"		"Luke Perkin"
+	"author_email"		""
+	"author_url"		"http://locofilm.co.uk/"
+	"info"				""
+	"override"			"0"
+}

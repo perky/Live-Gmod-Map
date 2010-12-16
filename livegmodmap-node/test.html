@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>NodeJS</title>
+		<script>
+		function draw() {  
+		      var canvas = document.getElementById("tutorial");  
+		      if (canvas.getContext) {  
+		        var ctx = canvas.getContext("2d");  
+ 						var player = new Image();
+						player.src = "http://colorvisiontesting.com/plate%20with%205.jpg";
+						ctx.drawImage( player, 0, 0 );
+		      }  
+		    }
+		</script>
+  </head>
+  <body onload="draw();">
+	
+		<canvas id="tutorial" width="150" height="150"></canvas>
+    
+  </body>
+</html>

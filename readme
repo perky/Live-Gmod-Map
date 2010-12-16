@@ -1,0 +1,13 @@
+Live Gmod Map.
+
+In order to install:
+
+Goto livegmodmap-node/server.js
+Edit the http port and udp port at the top of the file.
+
+Goto livegmodmap-addon/lua/autorun/server/gmodmap.lua
+Edit the server ip and server port, which should correspond to your udp port.
+
+Run server.js with node.
+
+For more infomation on node.js goto http://nodejs.org
