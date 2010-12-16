@@ -9,5 +9,6 @@ Goto livegmodmap-addon/lua/autorun/server/gmodmap.lua
 Edit the server ip and server port, which should correspond to your udp port.
 
 Run server.js with node.
+Requires socket.io! (http://socket.io)
 
 For more infomation on node.js goto http://nodejs.org
